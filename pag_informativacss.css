@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo suave y profesional */
+    color: #333; /* Color de texto oscuro */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenido */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezados */
+h1 {
+    text-align: center;
+    font-size: 2.8em;
+    color: #2c3e50; /* Azul oscuro */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #3498db; /* Línea de separación azul */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #2c3e50; /* Azul oscuro */
+    border-bottom: 2px solid #3498db; /* Línea de separación azul */
+    padding-bottom: 5px;
+    margin-top: 30px;
+    font-size: 2em;
+}
+
+h3, h4 {
+    color: #2c3e50; /* Azul oscuro */
+    margin-top: 20px;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ecf0f1; /* Fondo gris claro */
+    border-left: 5px solid #3498db; /* Línea de énfasis izquierda */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Listas */
+ul, ol {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover, ol li:hover {
+    background-color: #e8f6f3; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilos de enlaces */
+a {
+    color: #3498db; /* Azul */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #2980b9; /* Azul oscuro */
+    color: #fff; /* Color de texto blanco */
+}
+
+/* Estilos de tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+table th {
+    background-color: #3498db; /* Azul */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fila par gris claro */
+}
+
+table tr:hover {
+    background-color: #e8f6f3; /* Color al pasar el mouse */
+}
